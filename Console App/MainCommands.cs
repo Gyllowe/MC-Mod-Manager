@@ -1,4 +1,4 @@
-﻿using MC_Mod_Manager.Scripts;
+﻿using MC_Mod_Manager_Common;
 
 namespace MC_Mod_Manager_Console_App;
 
@@ -73,7 +73,7 @@ internal class MainCommands {
     private static void _ListInstalledMods() {
         Console.WriteLine(Environment.NewLine + "Installed mods:");
 
-        List<MC_Mod_Manager.Scripts.Mod> ni;
+        List<Mod> ni;
     }
 
 
