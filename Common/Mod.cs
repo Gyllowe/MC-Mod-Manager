@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace MC_Mod_Manager_Common;
+﻿namespace MC_Mod_Manager_Common;
 
 public class Mod {
     public string Name { get; private set; } = string.Empty;

@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using MC_Mod_Manager_Console_App;
+using Console_App;
 
 string intro =
 @"Welcome to Gyllowe's Minecraft Mod Manager!";
@@ -11,12 +11,9 @@ string intro =
 
 Startup();
 
-Console.WriteLine(
-    System.Environment.NewLine + System.Environment.NewLine
-    + intro
-    + System.Environment.NewLine);
+Console.WriteLine($"\n\n{intro}\n");
 
-MainCommands.Run();
+CommandMenus.Open  (CommandMenus.MainMenu);
 
 
 
