@@ -73,7 +73,8 @@ public class AddNewMod : Command {
     public override string PrintedName() => "Add new mod";
 
     public override void Run() {
-        // do something
+        Console.WriteLine("\nEnter name for new mod:");
+        //string name = 
     }
 }
 public class AddNoteToMod : Command {

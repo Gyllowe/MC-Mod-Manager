@@ -27,21 +27,24 @@ public sealed class ModManager {
 
 public enum Category {
     none,
+
     TrueOptimization,
     Optimization,
     AlteringOptimization,
-    //
+
     TinyFix,
     TinyChange,
-    //
+
     VanillaPlusContent,
     NonVanillaContent,
-    //
+
     VisualAddition,
     VisualChange,
-    //
+
     Gameplay,
     TechnicalChange,
-    //
-    MenuImprovement
+
+    MenuImprovement,
+
+    Library
 }

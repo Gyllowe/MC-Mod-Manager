@@ -13,7 +13,7 @@ Startup();
 
 Console.WriteLine($"\n\n{intro}\n");
 
-CommandMenus.Open  (CommandMenus.MainMenu);
+CommandMenus.Open(CommandMenus.MainMenu);
 
 
 
